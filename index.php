@@ -18,23 +18,25 @@
             </ul>
             <h1>❤</h1>
         </nav>
-        <div class="container">
+        <div class="container-fluid">
             <div class="body-content">
 
-                <div class="carousel m-auto mt-5 slide " id="imgCarousel">
+                <div id="myCarousel" class="carousel slide m-auto" >
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="imgs/workout0.avif" alt="">
+                        <div class="carousel-item ">
+                            <img src="imgs/workout0.avif" class="d-block w-100" alt="">
                         </div>
-                        <div class="carousel-item">
-                            <img src="imgs/workout1.avif" alt="">
+                        <div class="carousel-item active">
+                            <img src="imgs/workout1.avif" class="d-block w-100" alt="">
                         </div>
                     </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="imgCarousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="imgCarousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">next</span>
                         </button>                    
                 </div>
 
