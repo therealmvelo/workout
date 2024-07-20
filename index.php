@@ -3,22 +3,33 @@
    <head>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" href="inndex.css">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+       <link rel="stylesheet" href="inndex.css">
        <title>workout</title>
    </head>
    <body>
-        <nav class="navbar navbar-expand-lg border-bottom border-white sticky-top">
+        <nav class="navbar navbar-expand-lg border-bottom border-white sticky-top navigation">
             <a href="#title" class="navbar-brand m-lg-2">Hello world</a>
             <ul class="navbar-nav justify-items-center m-auto d-flex">
-                <li class="nav-link" href="#home">Home</li>
-                <li class="nav-link">About</li>
-                <li class="nav-link">Contact</li>
-                <li class="nav-link">Read more</li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Home</a>
+                </li>
             </ul>
             <h1>❤</h1>
         </nav>
-        <div class="container-fluid">
+        <div class="container">
             <div class="body-content">
 
                 <div id="myCarousel" class="carousel slide m-auto" >

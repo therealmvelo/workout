@@ -1,12 +1,12 @@
-.carousel {
-
-}
-
-.carousel img {
-    height: 500px;
-    width: 100px;
+.nav-link:hover {
+    color: rgb(43, 237, 111) !important;
 }
 
 body {
-    background-color: black !important;
+    background-color: rgb(130, 73, 73) !important;
+}
+
+.navigation {
+    z-index: 999;
+    background-color: aquamarine;
 }
