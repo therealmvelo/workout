@@ -1,12 +1,74 @@
-.nav-link:hover {
-    color: rgb(43, 237, 111) !important;
+ .navbar {
+    background-color: rgb(145, 161, 156);
+ }
+ .navbar-nav .nav-item .nav-link {
+    position: relative;
+}
+.nav-link,.navbar-brand {
+    color: white;
+}
+.navbar-nav .nav-item .nav-link::after {
+
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    bottom: -2px; /* Adjust this value for the spacing */
+    left: 0;
+    transition: width 0.3s;
 }
 
-body {
-
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+    color: red;    
 }
-
 .navigation {
     z-index: 999;
-    background-color: aquamarine;
+}
+
+#myCarousel {
+    height: 600px;
+    z-index: 1;
+    border: 2px black ridge;
+}
+
+#myCarousel img {
+    height: 600px;
+    object-fit: cover;
+}
+.author-card img {
+    object-fit: cover;
+}
+
+.author-card {
+    max-height: 500px;
+    overflow: hidden;
+}
+.author-intro li{
+    font-size: large;
+    font-weight: 600;
+    list-style: none;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.author-intro-item h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1;
+    text-decoration: underline dotted;
+}
+
+
+.vertical-line {
+    width: 2px;
+    height: 80px; /* Adjust this value to match the height of your content */
+    background-color: rgb(185, 65, 65);
+    margin: 0 20px;
+}
+
+.paragraph {
+
 }
