@@ -4,7 +4,7 @@
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-       <link rel="stylesheet" href="inndex.css?v=2.4">
+       <link rel="stylesheet" href="inndex.css?v=2.5">
        <title>workout</title>
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
                     <a class="nav-link h5" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link h5" href="">Books</a>
+                    <a class="nav-link h5" href="books.php">Books</a>
                 </li>
             </ul>
            
@@ -76,7 +76,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="modal-footer bg-secondary">
+                                <div class="modal-footer bg-dark">
                                     <button class="btn btn-secondary col-12 border rounded bg-danger container m-auto" data-bs-dismiss="modal">close</button>
                                 </div>
                         </div>
