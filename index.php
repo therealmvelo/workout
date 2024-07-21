@@ -4,13 +4,13 @@
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-       <link rel="stylesheet" href="inndex.css?v=2">
+       <link rel="stylesheet" href="inndex.css?v=2.4">
        <title>workout</title>
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
    </head>
-   <body class="bg-dark">
+   <body class="bg-dark text-white">
         <nav class="navbar navbar-expand-lg sticky-top navigation">
             <a href="#title" class="navbar-brand m-lg-2"><h2>Author.x Smith</h2></a>
             <ul class="navbar-nav justify-items-center m-auto d-flex">
@@ -18,49 +18,77 @@
                     <a class="nav-link active h5" href="">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link h5" href="">About</a>
+                    <a class="nav-link h5" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link h5" href="">Books</a>
                 </li>
             </ul>
+           
         </nav>
 
+
+        
         <div class="container mt-5">
             <div class="row">
                 <div class="col-6 ">
-                <ul class="author-intro text-white">
-                    <li class="author-intro-item">
-                        <h1>Author</h1>
-                        <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</div>
-                        <div class="vertical-line"></div>
-                    </li>
-                    <li class="author-intro-item">
-                        <h1>Speaker</h1>
-                        
-                        <div class="paragraph">Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</div>
-                        <div class="vertical-line"></div>
-                    </li>
-                    <li class="author-intro-item">
-                        <h1>Lecture</h1>
-                        <div class="paragraph">Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</div>
-                    </li>
-            </ul>
-                </div>
-                <div class="col-6">
-                    <div class="card text-danger author-card m-auto p-2">
-                        <img src="imgs/workout3.jpeg" class="card-img-top h-100" alt="...">
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </div>
+                    <ul class="author-intro">
+                        <li class="author-intro-item">
+                            <h1 data-bs-target="#myModal" data-bs-toggle="modal">Author</h1>
+                                <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</div>
+                                <div class="vertical-line"></div>
+                        </li>
+                        <li class="author-intro-item">
+                            <h1>Speaker</h1>
+                            <div class="paragraph">Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</div>
+                            <div class="vertical-line"></div>
+                        </li>
+                        <li class="author-intro-item">
+                            <h1>Lecture</h1>
+                            <div class="paragraph">Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</div>
+                        </li>
+                    </ul>
+
+                    
+            </div>
+        <div class="col-6">
+            <div class="card author-card m-auto p-2">
+                <img src="imgs/workout3.jpeg" class="card-img-top h-100 rounded" alt="...">
+            </div>
+            <div class="card-footer text-white d-inline">
+                <p><i>"lorem epsu yhr h hhhhteh htyrehy j76u76 76 u546u7j  hrehrh heh hytehbjy jnyenj"</i> </p>
+                <div class="m-auto">~Thomas Edsin</div>
+            </div>
+
+
+            <div class="modal text-dark " id="myModal" tabindex="-1" aria-labelledby="modalle" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+
+
+                                <div class="modal-body" style="background-image:url(imgs/workout1.avif);background-repeat:no-repeat;background-size:cover;">
+                                    <div class="card card-author"style="opacity:0.7;">
+                                    
+                                        <div class="card-body">
+                                            <h5 class="card-title m-auto">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer bg-secondary">
+                                    <button class="btn btn-secondary col-12 border rounded bg-danger container m-auto" data-bs-dismiss="modal">close</button>
+                                </div>
                         </div>
-                    </div>
-                </div>
+            </div>
 
         </div>
 
-   </body>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   
+</body>
+   
 </html>

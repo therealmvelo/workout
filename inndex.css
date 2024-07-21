@@ -1,5 +1,5 @@
  .navbar {
-    background-color: rgb(145, 161, 156);
+    background-color: rgb(0, 0, 0);
  }
  .navbar-nav .nav-item .nav-link {
     position: relative;
@@ -59,6 +59,23 @@
     font-weight: bold;
     margin: 1;
     text-decoration: underline dotted;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.author-intro-item h1:hover {
+    color: rgb(255, 255, 255);
+}
+
+.author-intro-item h1:hover::after {
+    content: '->';
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.author-intro-item:hover {
+    transition: 0.3s;
+    color: antiquewhite;
 }
 
 
@@ -67,8 +84,4 @@
     height: 80px; /* Adjust this value to match the height of your content */
     background-color: rgb(185, 65, 65);
     margin: 0 20px;
-}
-
-.paragraph {
-
 }
