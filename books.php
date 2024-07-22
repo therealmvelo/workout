@@ -12,10 +12,10 @@
    </head>
    <body class="bg-dark text-white">
         <nav class="navbar navbar-expand-lg sticky-top navigation">
-            <a href="#title" class="navbar-brand m-lg-2"><h2>Author.x Smith</h2></a>
+            <a href="index.html" class="navbar-brand m-lg-2"><h2>Author.x Smith</h2></a>
             <ul class="navbar-nav justify-items-center m-auto d-flex">
                 <li class="nav-item">
-                    <a class="nav-link active h5" href="">Home</a>
+                    <a class="nav-link active h5" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link h5" href="about.html">About</a>
