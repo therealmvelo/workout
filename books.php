@@ -81,7 +81,7 @@
             </div>
           </div>
 
-          <div class="book-info d-flex text-white">
+          <div class="book-info d-flex text-white mt-4">
             <h4 class="">Book Of Elves</h4>
           </div>
         </div>
