@@ -12,7 +12,7 @@
    </head>
    <body class="bg-dark text-white">
         <nav class="navbar navbar-expand-lg sticky-top navigation">
-            <a href="#title" class="navbar-brand m-lg-2"><h2>Author.x Smith</h2></a>
+            <a href="#title" class="navbar-brand m-lg-2 h2"><h2>Author.x Smith</h2></a>
             <ul class="navbar-nav justify-items-center m-auto d-flex">
                 <li class="nav-item">
                     <a class="nav-link h5" href="about.html">About</a>
@@ -20,13 +20,10 @@
                 <li class="nav-item">
                     <a class="nav-link h5" href="books.html">Books</a>
                 </li>
-            </ul>
-           
+            </ul>      
         </nav>
-
-
-        
-        <div class="container mt-5">
+ 
+        <div class="container mt-5 d-none d-lg-block">
             <div class="row">
                 <div class="col-6 ">
                     <ul class="author-intro">
@@ -47,7 +44,8 @@
                     </ul>
 
                     
-            </div>
+    </div>
+
         <div class="col-6">
             <div class="card author-card m-auto p-2">
                 <img src="imgs/workout3.jpeg" class="card-img-top h-100 rounded" alt="...">
@@ -56,8 +54,58 @@
                 <p><i>"lorem epsu yhr h hhhhteh htyrehy j76u76 76 u546u7j  hrehrh heh hytehbjy jnyenj"</i> </p>
                 <div class="m-auto">~Thomas Edsin</div>
             </div>
+                <!----------------------------------------------------------->
+        </div>
+</div>
+</div>
 
+<!--small screen-->
+<div class="container-fluid d-block d-sm-none">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-bg-dark">
+                <img src="imgs/workout4.jpeg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-bg-dark">
+                <img src="imgs/workout1.avif" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-bg-dark">
+                <img src="imgs/workout3.jpeg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
 
+        <!--modals-->
             <div class="modal text-dark " id="myModal" tabindex="-1" aria-labelledby="modalle" aria-hidden="true">
                         <div class="modal-dialog modal-fullscreen">
                             <div class="modal-content">
@@ -76,10 +124,10 @@
                                 <div class="modal-footer bg-dark">
                                     <button class="btn btn-secondary col-12 border rounded bg-danger container m-auto" data-bs-dismiss="modal">close</button>
                                 </div>
+                            </div>
                         </div>
-            </div>
 
-        </div>
+            </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
